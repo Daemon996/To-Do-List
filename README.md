@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# To-Do List App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple, fully featured To-Do List application built with React. This app allows you to add, edit, delete, and filter tasks, with persistent storage using localStorage and the ability to import/export tasks as JSON files. It’s styled with custom BearSansUI fonts and a dark blue accent color scheme.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Add Tasks:** Enter a new task and press Enter or click the "Add Task" button.
+- **Edit Tasks:** Update task details in-place.
+- **Delete Tasks:** Remove tasks from the list.
+- **Mark as Completed:** Click on a task to toggle its completion status.
+- **Filter Tasks:** View tasks by All, Active, or Completed.
+- **Persistent Storage:** Tasks are saved in localStorage so they persist on reload.
+- **Import/Export:** Export your tasks as a JSON file or import tasks from a JSON file.
+- **Custom Styling:** Uses custom BearSansUI fonts for a unique look.
 
-### `npm start`
+## Live Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Check out the live demo at: [todo.nathancourtney.com](https://todo.nathancourtney.com)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+To run this project locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the repository:**
 
-### `npm run build`
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Navigate to the project directory:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   cd your-repo-name
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Install dependencies:**
 
-### `npm run eject`
+   ```bash
+   npm install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. **Start the development server:**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   npm start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   Your app will run at [http://localhost:3000](http://localhost:3000).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Build
 
-## Learn More
+To create a production build, run:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm run build
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This command creates a `build` directory with the production-ready version of your app.
 
-### Code Splitting
+## Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This app is deployed on [Cloudflare Pages](https://pages.cloudflare.com/). To deploy:
 
-### Analyzing the Bundle Size
+1. Push your code to GitHub.
+2. Connect your repository to Cloudflare Pages.
+3. Set the build command to `npm run build` and the output directory to `build`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Custom Fonts
 
-### Making a Progressive Web App
+All custom BearSansUI fonts are stored in the `public/fonts` directory. These fonts are referenced in the CSS via `@font-face` rules. Make sure these files remain in the `public/fonts` folder for proper styling.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contributing
 
-### Advanced Configuration
+Contributions are welcome! If you'd like to contribute, please fork the repository and submit a pull request with your changes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## License
 
-### Deployment
+This project is licensed under the [MIT License](LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Contact
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For questions or feedback, please contact Nathan Courtney.
